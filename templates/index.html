@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwritten Equation Solver</title>
+    <link rel="shortcut icon" type="image/x-icon" href="fav.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        .center {
+        margin-top: 10%;
+        width: 50%;
+        text-align: center;
+        border-radius: 10px;
+        border: 5px solid green;
+        padding: 10px;
+      }
+    </style>
+</head>
+
+<body>
+  
+    <div class="container center">
+
+        <div class="card" style="width: 100%;">
+            <img src="" class="eqn card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Upload a equation!</h5>
+              <p class="card-text">Upload the image of eqaution you want to solve.</p>
+              <form method="post" enctype="multipart/form-data">
+                <div class="col-sm">
+                  <table>
+                    <tr align="center">
+                      <input class="my-3" type="file" name="file1">
+                    </tr>
+                    <tr align="center">
+                      <button type="submit" class="btn btn-primary">Select</button>
+                    </tr>
+                  </table>
+                </div>
+            </form>   
+            </div>
+          </div>
+</body>
+</html>
